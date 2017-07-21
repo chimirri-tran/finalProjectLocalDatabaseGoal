@@ -1,4 +1,4 @@
-package src.introsde.document.ws;
+package introsde.document.ws;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import javax.jws.soap.SOAPBinding;
 import javax.jws.soap.SOAPBinding.Style;
 import javax.jws.soap.SOAPBinding.Use;
 
-import src.introsde.document.model.Goal;
+import introsde.document.model.Goal;
 
 @WebService
 @SOAPBinding(style = Style.DOCUMENT, use = Use.LITERAL) // optional
