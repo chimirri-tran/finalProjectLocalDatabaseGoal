@@ -1,4 +1,4 @@
-package src.introsde.document.model;
+package introsde.document.model;
 
 import java.io.Serializable;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlTransient;
 
-import src.introsde.document.dao.LifeCoachDao;
+import introsde.document.dao.LifeCoachDao;
 
 /**
  * The persistent class for the "Goal" database table.
