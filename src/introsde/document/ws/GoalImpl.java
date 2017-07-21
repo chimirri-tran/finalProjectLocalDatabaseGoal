@@ -1,12 +1,12 @@
-package src.introsde.document.ws;
+package introsde.document.ws;
 
 import java.util.List;
 
 import javax.jws.WebService;
 
-import src.introsde.document.model.Goal;
+import introsde.document.model.Goal;
 
-@WebService(endpointInterface = "src.introsde.document.ws.Goals",
+@WebService(endpointInterface = "introsde.document.ws.Goals",
 serviceName="GoalService")
 public class GoalImpl implements Goals{
 	public List<Goal> getGoals() {
