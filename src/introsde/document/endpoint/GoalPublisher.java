@@ -1,8 +1,8 @@
-package src.introsde.document.endpoint;
+package introsde.document.endpoint;
 
 import javax.xml.ws.Endpoint;
 
-import src.introsde.document.ws.GoalImpl;
+import introsde.document.ws.GoalImpl;
 
 public class GoalPublisher {
 	public static String SERVER_URL = "http://localhost";
